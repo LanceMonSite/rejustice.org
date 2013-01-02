@@ -1,0 +1,323 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+	background: #111;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+ul{
+	padding: 0 !important;
+}
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+
+} 
+.quote{
+	width: 680px;
+    height: 340px;
+	margin: 75px auto 0;
+    display: none;
+}
+
+#charlesDickens {
+    display: block;
+}
+
+.quote-pic{
+	float: left;
+	margin-right: 15px;
+}
+.quote-pic img{
+    border-radius: 100px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    border: 5px solid #fff;
+}
+
+.quote-text{
+	padding: 30px;
+	color: #fff;
+}
+.quote-text span{
+	font-family: 'Exo', sans-serif;
+	font-size: 18px;
+	}
+.quote-name{
+	clear: left;
+}
+.quote-name h1{
+	margin: 5px 0 5px 0;
+	font-size: 60px;
+	color: #fff;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+.quote-name span{
+    color: #a00808;
+    font-size: 63px;
+
+}
+#nav-bar{
+	background: #a00808;
+	 border-bottom: 4px solid #FFFFFF;
+    padding: 6px;
+}
+.quote-icon-list li {
+	display: inline;
+	padding: 10px;
+}
+.quote-icon-list {
+    text-align: center;
+	margin-top: 50px;
+}
+.quote-icon-list img {
+    border-radius: 100px 100px 100px 100px;
+    height: 75px;
+}
+.quote-icon-list li:hover{
+    cursor: pointer;
+    opacity: 1 !important;
+
+
+}
+li.opacity{
+	opacity: 0.2;
+    transition: opacity .25s ease-in-out;
+
+}
+.top-quotation{
+background: url('img/quotations.png') no-repeat -1px 0; width: 27px; height: 25px;
+}
+#prev {
+    background-image: url(img/back-arrow.png);
+    display: block;
+    height: 83px;
+    left: 377px;
+    position: absolute;
+    top: 291px;
+    width: 54px;
+}
+.bird {
+  height: 400px;
+    opacity: 0.17;
+    position: absolute;
+    right: 475px;
+    top: 20px;
+
+}
+.social-share {
+    float: right;
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
